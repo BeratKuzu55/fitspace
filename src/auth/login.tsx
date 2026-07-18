@@ -1,8 +1,6 @@
 import { IconProp } from '@fortawesome/fontawesome-svg-core';
 import {
-  faEye,
-  faEyeSlash,
-  faLock,
+  faEnvelope,
   faPhone,
 } from '@fortawesome/free-solid-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-native-fontawesome';
@@ -29,17 +27,12 @@ import { api } from '../services/api';
 import { useAppDispatch } from '../store';
 import { hydrate } from '../store/slices/authSlice';
 import { useTheme } from '../theme';
-import {
-  countryCodeToDialCode,
-  detectDeviceCountry,
-} from '../utils/deviceCountry';
 import { localStorage } from '../utils/localStorage';
 import { showNotification } from '../utils/notificationHelper';
 import useStyles from './styles';
-import { primitives } from '../../styles';
 import { CLIENT_ID } from '@env';
 import auth, { FirebaseAuthTypes } from '@react-native-firebase/auth';
-
+import {fonts} from '../../styles/fonts';
 type LoginScreenProps = Record<string, never>;
 
 const LoginScreen: React.FC<LoginScreenProps> = () => {
@@ -58,14 +51,16 @@ const LoginScreen: React.FC<LoginScreenProps> = () => {
   const [isTermsVisible, setIsTermsVisible] = useState(false);
   const [isPrivacyPolicyVisible, setIsPrivacyPolicyVisible] = useState(false);
   const [dialCode, setDialCode] = useState(() => {
-    const deviceCountry = detectDeviceCountry();
-    const country = countryCodeToDialCode(deviceCountry);
-    return country || '+90';
+    // const deviceCountry = detectDeviceCountry();
+    // const country = countryCodeToDialCode(deviceCountry);
+    return '+90';
   });
+  const [email, setEmail] = useState('');
   const [secure, setSecure] = useState(true);
   const [confirm, setConfirm] =
     useState<FirebaseAuthTypes.ConfirmationResult | null>(null);
 
+  const [loginType, setLoginType] = useState<'phone' | 'email'>('phone');
   useEffect(() => {
     if (!CLIENT_ID) {
       console.warn('Google CLIENT_ID .env içinde tanımlı değil.');
@@ -376,7 +371,7 @@ const LoginScreen: React.FC<LoginScreenProps> = () => {
             </Text>
           </View>
 
-          <TouchableOpacity
+          {/* <TouchableOpacity
             style={styles.navigationView}
             onPress={() => navigation.navigate('Register')}
           >
@@ -386,70 +381,104 @@ const LoginScreen: React.FC<LoginScreenProps> = () => {
                 {t('auth:login.createAccount')}
               </Text>
             </Text>
-          </TouchableOpacity> 
+          </TouchableOpacity>  */}
 
           <View style={styles.inputCardContainer}>
             <Text style={[styles.subtitle, globalStyles.titleFont]}>
               {t('auth:login.formTitle')}
             </Text>
-            <Text style={[styles.inputInfo, globalStyles.buttonFont]}>
-              {t('auth:login.phoneLabel')}
-            </Text>
-            <View style={styles.inputContainer}>
-              <FontAwesomeIcon
-                icon={faPhone as IconProp}
-                style={styles.inputIcon}
-              />
-              <DialCodePicker
-                value={dialCode}
-                onChange={setDialCode}
-                theme={theme}
-                styles={styles}
-              />
-              <TextInput
-                style={styles.input}
-                placeholder={t('auth:login.phonePlaceholder')}
-                placeholderTextColor={theme.colors.textSecondary}
-                keyboardType="numeric"
-                value={phoneNumber}
-                onChangeText={(text: string) => {
-                  const numericText = text.replace(/[^0-9]/g, '');
-                  setPhoneNumber(numericText);
-                }}
-                maxLength={15}
-              />
-            </View>
 
-            <Text style={[styles.inputInfo, globalStyles.buttonFont]}>
-              {t('auth:login.passwordLabel')}
-            </Text>
-            <View style={styles.inputContainer}>
-              <FontAwesomeIcon
-                icon={faLock as IconProp}
-                style={styles.inputIcon}
-              />
-              <TextInput
-                style={styles.input}
-                placeholder={t('auth:login.passwordPlaceholder')}
-                placeholderTextColor={theme.colors.textSecondary}
-                secureTextEntry={secure}
-                value={password}
-                onChangeText={setPassword}
-              />
-              <TouchableOpacity onPress={() => setSecure(!secure)}>
-                <FontAwesomeIcon
-                  icon={secure ? (faEye as IconProp) : (faEyeSlash as IconProp)}
-                  size={18}
-                  color={primitives.slate300}
-                />
+            {/* Login Type */}
+            <View style={styles.loginTypeContainer}>
+              <TouchableOpacity
+                style={[
+                  styles.loginTypeButton,
+                  loginType === 'phone' && styles.loginTypeButtonActive,
+                ]}
+                onPress={() => setLoginType('phone')}>
+                <Text
+                  style={[
+                    styles.loginTypeText,
+                    loginType === 'phone' && styles.loginTypeTextActive,
+                    
+                  ]}>
+                  {t('auth:login.phone')}
+                </Text>
+              </TouchableOpacity>
+
+              <TouchableOpacity
+                style={[
+                  styles.loginTypeButton,
+                  loginType === 'email' && styles.loginTypeButtonActive,
+                ]}
+                onPress={() => setLoginType('email')}>
+                <Text
+                  style={[
+                    styles.loginTypeText,
+                    loginType === 'email' && styles.loginTypeTextActive,
+                  ]}>
+                  {t('auth:login.email')}
+                </Text>
               </TouchableOpacity>
             </View>
 
-            <TouchableOpacity onPress={() => navigation.navigate('FPScreen')}>
-              <Text style={styles.forgotPasswordText}>
-                {t('auth:login.forgotPassword')}
-              </Text>
-            </TouchableOpacity>
+            {loginType === 'phone' ? (
+              <>
+                <Text style={[styles.inputInfo, globalStyles.buttonFont]}>
+                  {t('auth:login.phoneLabel')}
+                </Text>
+
+                <View style={styles.inputContainer}>
+                  <FontAwesomeIcon
+                    icon={faPhone as IconProp}
+                    style={styles.inputIcon}
+                  />
+
+                  <DialCodePicker
+                    value={dialCode}
+                    onChange={setDialCode}
+                    theme={theme}
+                    styles={styles}
+                  />
+
+                  <TextInput
+                    style={styles.input}
+                    placeholder={t('auth:login.phonePlaceholder')}
+                    placeholderTextColor={theme.colors.textSecondary}
+                    keyboardType="numeric"
+                    value={phoneNumber}
+                    onChangeText={text =>
+                      setPhoneNumber(text.replace(/[^0-9]/g, ''))
+                    }
+                    maxLength={15}
+                  />
+                </View>
+              </>
+            ) : (
+              <>
+                <Text style={[styles.inputInfo, globalStyles.buttonFont]}>
+                  {t('auth:login.emailLabel')}
+                </Text>
+
+                <View style={styles.inputContainer}>
+                  <FontAwesomeIcon
+                    icon={faEnvelope as IconProp}
+                    style={styles.inputIcon}
+                  />
+
+                  <TextInput
+                    style={styles.input}
+                    placeholder={t('auth:login.emailPlaceholder')}
+                    placeholderTextColor={theme.colors.textSecondary}
+                    keyboardType="email-address"
+                    autoCapitalize="none"
+                    autoCorrect={false}
+                    value={email}
+                    onChangeText={setEmail}
+                  />
+                </View>
+              </>
+            )}
           </View>
           <RoundedButton
             text={

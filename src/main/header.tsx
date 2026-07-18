@@ -8,6 +8,7 @@ import { useTheme } from '../theme';
 import { useHeaderTitle } from './HeaderContext';
 import useStyles from './home/styles';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import { fonts } from '../../styles';
 
 interface HeaderProps {
   style?: ViewStyle;
@@ -57,7 +58,9 @@ const Header: React.FC<HeaderProps> = () => {
             height: 50,
           }}
         >
-          <Text style={styles.greeting}>{title || 'Fitspace'}</Text>
+          <Text style={[styles.greeting, { fontFamily: fonts.fredoka }]}>
+            {title || 'Fitspace'}
+          </Text>
         </View>
       </View>
     </View>

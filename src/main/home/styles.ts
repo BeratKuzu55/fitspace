@@ -1,6 +1,6 @@
 import { Dimensions, StyleSheet } from 'react-native';
 import { ThemeType } from '../../theme';
-import { overlays, primitives } from '../../../styles';
+import { fonts, overlays, primitives } from '../../../styles';
 
 const { width } = Dimensions.get('window');
 const gap = 12;
@@ -113,10 +113,7 @@ const useStyles = (theme: ThemeType) => {
       overflow: 'hidden',
     },
     greeting: {
-      color: theme.colors.textPrimary,
-      fontFamily: 'Agbalumo',
       fontSize: 30,
-      fontWeight: '800',
       lineHeight: 30,
       textAlign: 'center',
     },
@@ -141,10 +138,11 @@ const useStyles = (theme: ThemeType) => {
     iconBg: {
       alignItems: 'center',
       justifyContent: 'center',
+      
     },
     iconButton: {
-      height: 30,
-      width: 30,
+      height: 50,
+      width: 50,
     },
     iconKettlebell: {
       alignItems: 'center',

@@ -324,6 +324,33 @@ const useStyles = (theme: ThemeType) => {
       margin: 10,
       marginTop: 40,
     },
+    loginTypeContainer: {
+  flexDirection: 'row',
+  backgroundColor: theme.colors.surfaceContainer,
+  borderRadius: 12,
+  padding: 4,
+  marginBottom: 20,
+},
+
+loginTypeButton: {
+  flex: 1,
+  paddingVertical: 10,
+  borderRadius: 10,
+  alignItems: 'center',
+},
+
+loginTypeButtonActive: {
+  backgroundColor: theme.colors.primary,
+},
+
+loginTypeText: {
+  color: theme.colors.textSecondary,
+  fontWeight: '600',
+},
+
+loginTypeTextActive: {
+  color: theme.colors.white,
+},
   });
 };
 

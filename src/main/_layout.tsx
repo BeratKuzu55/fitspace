@@ -31,7 +31,7 @@ const MainLayout: React.FC<MainLayoutProps> = () => {
   }
 
   return (
-    <View style={styles.container} collapsable={false}>
+    <View style={[styles.container]} collapsable={false}>
       <Tab.Navigator
         screenOptions={({ route }) => ({
           headerShown: false,
@@ -43,7 +43,6 @@ const MainLayout: React.FC<MainLayoutProps> = () => {
       >
         <Tab.Screen name="Home" component={HomeLayout} />
         <Tab.Screen name="Workout" component={WorkoutLayout} />
-        <Tab.Screen name="Exereyes" component={ExereyesLayout} />
         <Tab.Screen name="Favorites" component={FavoritesLayout} />
         <Tab.Screen name="Profile" component={ProfileLayout} />
         <Tab.Screen name="ActivityManager" component={ActivityManager} />
