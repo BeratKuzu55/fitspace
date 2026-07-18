@@ -1,0 +1,1007 @@
+{
+  "languageSettings": {
+    "title": "Dil ayarları",
+    "subtitle": "ExerEyes deneyimini hangi dilde kullanmak istediğini seç. Dilediğin zaman değiştirebilirsin.",
+    "searchPlaceholder": "Dil ara",
+    "systemBadge": "Sistem",
+    "activeBadge": "Aktif",
+    "applyButton": "Kaydet",
+    "applyingLabel": "Kaydediliyor...",
+    "toastSuccess": "Dil tercihin güncellendi.",
+    "toastError": "Dil güncellenemedi. Lütfen tekrar dene.",
+    "emptyResult": "Arama kriterlerine uygun dil bulunamadı.",
+    "languageList": {
+      "en": {
+        "name": "İngilizce",
+        "nativeName": "English",
+        "region": "Küresel"
+      },
+      "tr": {
+        "name": "Türkçe",
+        "nativeName": "Türkçe",
+        "region": "Türkiye"
+      }
+    }
+  },
+  "workout": {
+    "noWorkoutsFound": "Seçtiğiniz filtrelere uygun sonuç bulamadık. Antreman listemizi güncellemek için çalışıyoruz. Lütfen daha sonra tekrar deneyin.",
+    "notifications": {
+      "sessionRequiredTitle": "Oturum gerekli",
+      "sessionRequiredMessage": "Lütfen tekrar giriş yapın."
+    },
+    "info": {
+      "selectGoalEquipment": "Antrenman hedefini ve ekipmanını seç",
+      "selectTargetRegion": "Hedef bölgeni seç"
+    },
+    "options": {
+      "endurance": "Mobilite",
+      "strength": "Kuvvet",
+      "cardio": "Kardiyo"
+    },
+    "equipment": {
+      "withEquipment": "Ekipman ile",
+      "bodyweight": "Vücut ağırlığı ile"
+    },
+    "mapping": {
+      "leg": "Bacak",
+      "arm": "Kol",
+      "abdomen": "Karın",
+      "chest": "Göğüs",
+      "shoulder": "Omuz",
+      "back": "Sırt"
+    }
+  },
+  "activityModule": {
+    "warmup": "ISINMA",
+    "main": "ANA BÖLÜM",
+    "cooldown": "SOĞUMA",
+    "startButton": "Başla",
+    "difficulty": {
+      "beginner": "Başlangıç",
+      "intermediate": "Orta",
+      "advanced": "İleri"
+    },
+    "summary": {
+      "button": "Egzersiz Özeti",
+      "instructions": "Açıklamalar",
+      "video": "Video Anlatımı Oynat"
+    },
+    "session": {
+      "progressModal": {
+        "rest": "Dinlenme",
+        "time": "Süre",
+        "repetition": "Tekrar",
+        "workoutContent": "Antrenman İçeriği"
+      },
+      "restScreen": {
+        "nextSet": "Sonraki Set",
+        "nextExercise": "Sonraki Egzersiz",
+        "rest": "Dinlenin",
+        "second": "Saniye",
+        "continueButton": "Devam et"
+      }
+    }
+  },
+  "favorites": {
+    "title": "Favori Antrenmanların",
+    "empty": "Henüz favori antrenmanın bulunmuyor"
+  },
+  "quickStart": {
+    "title": {
+      "home": "Evde Hızlı Başla",
+      "outdoor": "Dışarıda Hızlı Başla"
+    },
+    "filters": {
+      "title": "Filtrele",
+      "reset": "Sıfırla",
+      "type": "Antrenman Türü",
+      "all": "Tümü",
+      "no_equipment": "Ekipmansız",
+      "equipped": "Ekipmanlı",
+      "selectEquipment": "Sahip Olduğun Ekipmanlar",
+      "apply": "Filtreleri Uygula"
+    }
+  },
+  "aiAnalyse": {
+    "title": "ExerAI Analizi",
+    "loadingText": "Analiz oluşturuluyor...",
+    "emptyText": "Henüz ExerAI analizin yok",
+    "analyseLoading": "ExerAi işlemi biraz zaman alabilir...",
+    "buttonText": "Yeni Analiz İste",
+    "notifications": {
+      "fetchError": "Analiz verisi alınamadı",
+      "createError": "Analiz oluşturulamadı.",
+      "genericError": "Bir hata oluştu."
+    }
+  },
+  "exerciseLibrary": {
+    "searchPlaceholder": "Egzersiz ara...",
+    "emptyResults": "Sonuç bulunamadı",
+    "videoNotFound": "Video bulunamadı",
+    "closeButton": "Kapat"
+  },
+  "exereyes": {
+    "placeholders": {
+      "addPhoto": "Fotoğraf ekle"
+    },
+    "headerTitle": "Ortamını tanıyalım",
+    "buttons": {
+      "camera": "Kamera",
+      "gallery": "Galeri",
+      "detect": "Tespit Et"
+    },
+    "alerts": {
+      "permissionTitle": "Kamera izni gerekiyor",
+      "permissionMessage": "Bu uygulama fotoğraf çekmek için kamera iznine ihtiyaç duyuyor.",
+      "permissionNeutral": "Daha sonra sor",
+      "permissionNegative": "İptal",
+      "permissionPositive": "Tamam",
+      "permissionDenied": "Kamera izni verilmedi",
+      "limitTitle": "Maksimum fotoğraf limiti",
+      "limitMessage": "En fazla {{count}} fotoğraf ekleyebilirsin.",
+      "noPhotos": "Henüz fotoğraf seçilmedi",
+      "errorDetecting": "Ekipman tespiti yapılamadı. Lütfen tekrar dene."
+    },
+    "info": {
+      "title1": "Fotoğraflarını Hazırla",
+      "description1": "Maksimum 4 tane olmak üzere galerinden ekipman resmi seç veya kamera ile ekle. Ardından “Tespit Et” butonuna tıklayarak yapay zekânın ekipmanlarını analiz etmesini bekle.",
+      "title2": "Sonuçlarını İncele",
+      "description2": "Tespit edilen ekipmanlarını kontrol et. Eksik veya fazla varsa ekipman üzerine tıklayarak düzenleyebilir, doğru listeyi oluşturabilirsin.",
+      "title3": "Antrenmanını Kişiselleştir",
+      "description3": "Çalışmak istediğin vücut bölgelerini ve antrenman yoğunluğunu seç. Sana özel Exereyes antrenmanına hemen başla!"
+    },
+    "modal": {
+      "back": "Geri",
+      "next": "İleri",
+      "ready": "Hazırım"
+    }
+  },
+  "equipmentOverride": {
+    "notifications": {
+      "authErrorTitle": "Hata",
+      "authErrorMessage": "Kullanıcı doğrulama hatası. Lütfen tekrar giriş yapın.",
+      "fetchError": "Ekipmanlar alınırken bir hata oluştu."
+    },
+    "sections": {
+      "selected": "Tespit Edilen Ekipmanlar",
+      "available": "Gözünden mi kaçtı?"
+    },
+    "empty": {
+      "selected": "Henüz seçim yapılmadı",
+      "available": "Tüm ekipmanlar seçildi"
+    },
+    "continue": "Devam Et"
+  },
+  "exerciseConfigure": {
+    "labels": {
+      "selectRegion": "Hedef bölgeni seç",
+      "selectGoalEquipment": "Antrenman hedefini ve ekipmanını seç",
+      "adjustIntensity": "Antrenman yoğunluğunu ayarla",
+      "intensity": "Yoğunluk"
+    },
+    "options": {
+      "endurance": "Mobilite",
+      "strength": "Kuvvet",
+      "cardio": "Kardiyo"
+    },
+    "notifications": {
+      "errorTitle": "Hata",
+      "selectRegion": "Lütfen en az bir vücut bölgesi seçin.",
+      "selectEquipment": "Lütfen en az bir ekipman seçin ve en fazla 3 ekipman seçin.",
+      "selectGoal": "Lütfen bir antrenman hedefi seçin.",
+      "sessionRequired": "Kullanıcı doğrulama hatası. Lütfen tekrar giriş yapın.",
+      "fetchError": "Egzersiz listesi alınırken hata oluştu.",
+      "maxRegions": "En fazla 1 vücut bölgesi seçebilirsiniz."
+    },
+    "alerts": {
+      "sessionRequiredTitle": "Oturum gerekli",
+      "sessionRequiredMessage": "Lütfen tekrar giriş yapın.",
+      "fetchError": "Vücut bölgeleri çekilemedi. Lütfen tekrar deneyin",
+      "noExercises": "Seçtiğiniz ayarlara uygun bir egzersiz oluşturulamadı."
+    },
+    "cta": "Devam Et"
+  },
+  "profile": {
+    "logoutSuccess": "Şimdilik hoşça kal! Yarın tekrar görüşmek dileğiyle.",
+    "defaults": {
+      "firstName": "İsim",
+      "lastName": "Soyisim",
+      "placeholderPhoto": "Fotoğraf Ekle"
+    },
+    "notifications": {
+      "errorTitle": "Hata",
+      "authFailed": "Kullanıcı doğrulaması başarısız. Tekrar giriş yapın.",
+      "infoFetchFailed": "Kullanıcı bilgisi alınamadı.",
+      "generic": "Bir hata oluştu. Lütfen daha sonra tekrar deneyin.",
+      "photoMissingTitle": "Hata!",
+      "photoMissingMessage": "Profil fotoğrafı bulunamadı.",
+      "logoutCancelTitle": "Başarılı",
+      "logoutCancelMessage": "Çıkış yapılmıyor",
+      "logoutSuccessTitle": "Çıkış Yapıldı",
+      "logoutSuccessMessage": "Başarıyla çıkış yaptınız",
+      "logoutFailureTitle": "Hata",
+      "logoutFailureMessage": "Çıkış yapılamadı. Lütfen tekrar deneyin.",
+      "deactivateStayTitle": "Harika!",
+      "deactivateStayMessage": "Aramızda kalmana sevindik. Hadi kaldığımız yerden devam edelim :)",
+      "deactivateSuccessTitle": "Hesap Donduruldu",
+      "deactivateSuccessMessage": "Ayrıldığını görmeye üzüldük. Tekrar görüşmek üzere :)",
+      "deactivateFailureTitle": "Hata",
+      "deactivateFailureMessage": "Hesap dondurulamadı. Lütfen tekrar deneyin.",
+      "sessionRequired": "Geçerli bir oturum yok. Lütfen giriş yapın."
+    },
+    "alerts": {
+      "logoutTitle": "Çıkış Yap",
+      "logoutMessage": "Çıkış yapmak istediğinize emin misiniz?",
+      "logoutCancel": "Hayır",
+      "logoutConfirm": "Evet",
+      "deactivateTitle": "Hesabı Dondur",
+      "deactivateMessage": "Hesabınızı dondurmak istediğinize emin misiniz?",
+      "deactivateCancel": "Hayır",
+      "deactivateConfirm": "Evet"
+    },
+    "buttons": {
+      "updateProfile": "Profil Güncelle",
+      "physicalProfile": "Fiziksel Profilim",
+      "settings": "Ayarlar",
+      "privacy": "Gizlilik Politikası",
+      "help": "Yardım/İletişim",
+      "logout": "Çıkış Yap"
+    },
+    "idLabel": "ID: {{id}}"
+  },
+  "updateProfile": {
+    "placeholders": {
+      "photo": "Fotoğraf Ekle",
+      "weight": "Kg",
+      "age": "Yaş",
+      "height": "Cm",
+      "phone": "Telefon"
+    },
+    "labels": {
+      "weight": "Kilogram",
+      "age": "Yaş",
+      "height": "Uzunluk",
+      "fullName": "İsim Soyisim",
+      "email": "E-posta",
+      "phone": "Telefon Numarası"
+    },
+    "buttons": {
+      "update": "Profilini Güncelle"
+    },
+    "notifications": {
+      "errorTitle": "Hata",
+      "authFailed": "Kullanıcı doğrulaması başarısız. Tekrar giriş yapın.",
+      "infoFetchFailed": "Kullanıcı bilgisi alınamadı.",
+      "generic": "Bir hata oluştu. Lütfen daha sonra tekrar deneyin.",
+      "photoMissingTitle": "Hata!",
+      "photoMissingMessage": "Profil fotoğrafı bulunamadı.",
+      "selectCancelledTitle": "İptal",
+      "selectCancelledMessage": "Fotoğraf seçimi iptal edildi.",
+      "selectFailed": "Fotoğraf seçimi başarısız.",
+      "uploadSuccessTitle": "Başarılı",
+      "uploadSuccessMessage": "Profil fotoğrafı güncellendi!",
+      "uploadFailed": "Profil fotoğrafı güncellenemedi.",
+      "updateSuccessTitle": "Başarılı",
+      "updateSuccessMessage": "Profil güncellendi!",
+      "updateFailed": "Profil güncellemesi başarısız.",
+      "updateError": "Güncelleme sırasında bir hata oluştu."
+    }
+  },
+  "physicalProfile": {
+    "title": "Hedefini Belirle",
+    "buttons": {
+      "exerciseGoal": "Antrenman Hedefi",
+      "exerciseExperience": "Antrenman Deneyimi",
+      "activityLevel": "Fiziksel Aktivite Seviyesi",
+      "healthHistory": "Sağlık Geçmişi",
+      "fitnessTests": "Fiziksel Uygunluk Testleri"
+    }
+  },
+  "exerciseGoal": {
+    "title": "Antreman Hedefi",
+    "subtitle": "En fazla 3 tane seçebilirsin",
+    "options": {
+      "loseWeight": "Kilo Verme",
+      "toning": "Sıkılaşma",
+      "strength": "Güçlenme",
+      "flexibility": "Esneklik Artırma"
+    },
+    "notifications": {
+      "errorTitle": "Hata",
+      "authFailed": "Kullanıcı doğrulaması başarısız. Tekrar giriş yapın.",
+      "infoFetchFailed": "Kullanıcı bilgisi alınamadı.",
+      "generic": "Bir hata oluştu. Lütfen daha sonra tekrar deneyin.",
+      "missingSelection": "Lütfen en az bir hedef seçin.",
+      "sessionRequired": "Giriş bilgisi bulunamadı. Tekrar giriş yapın.",
+      "updateSuccessTitle": "Başarılı",
+      "updateSuccessMessage": "Profil güncellendi!",
+      "updateFailed": "Profil güncellemesi başarısız.",
+      "updateError": "Güncelleme sırasında bir hata oluştu.",
+      "maxSelection": "En fazla 3 hedef seçebilirsiniz."
+    },
+    "buttons": {
+      "confirm": "Onayla"
+    }
+  },
+  "exerciseExperience": {
+    "title": "Antrenman Deneyimi",
+    "options": {
+      "beginner": "0-1 yıl",
+      "intermediate": "1-3 yıl",
+      "advanced": "3+ yıl"
+    },
+    "notifications": {
+      "errorTitle": "Hata",
+      "authFailed": "Kullanıcı doğrulaması başarısız. Tekrar giriş yapın.",
+      "infoFetchFailed": "Kullanıcı bilgisi alınamadı.",
+      "generic": "Bir hata oluştu. Lütfen daha sonra tekrar deneyin.",
+      "invalidInfo": "Kullanıcı bilgisi yanlış.",
+      "missingSelection": "Lütfen bir hedef seçin.",
+      "sessionRequired": "Giriş bilgisi bulunamadı. Tekrar giriş yapın.",
+      "updateSuccessTitle": "Başarılı",
+      "updateSuccessMessage": "Profil güncellendi!",
+      "updateFailed": "Profil güncellemesi başarısız.",
+      "updateError": "Güncelleme sırasında bir hata oluştu."
+    },
+    "buttons": {
+      "confirm": "Onayla"
+    }
+  },
+  "activityLevel": {
+    "title": "Aktivite Seviyesi",
+    "options": {
+      "beginner": "Başlangıç",
+      "intermediate": "Orta",
+      "advanced": "İleri Düzey"
+    },
+    "notifications": {
+      "errorTitle": "Hata",
+      "authFailed": "Kullanıcı doğrulaması başarısız. Tekrar giriş yapın.",
+      "infoFetchFailed": "Kullanıcı bilgisi alınamadı.",
+      "generic": "Bir hata oluştu. Lütfen daha sonra tekrar deneyin.",
+      "missingSelection": "Lütfen bir hedef seçin.",
+      "sessionRequired": "Giriş bilgisi bulunamadı. Tekrar giriş yapın.",
+      "updateSuccessTitle": "Başarılı",
+      "updateSuccessMessage": "Profil güncellendi!",
+      "updateFailed": "Profil güncellemesi başarısız.",
+      "updateError": "Güncelleme sırasında bir hata oluştu."
+    },
+    "buttons": {
+      "confirm": "Onayla"
+    }
+  },
+  "healthProblems": {
+    "title": "Sağlık Geçmişi",
+    "warning": "Seçimlerinizi onaylamayı unutmayın",
+    "tabs": {
+      "diseases": "Sağlık Problemleri",
+      "injuries": "Sakatlıklar"
+    },
+    "notifications": {
+      "errorTitle": "Hata",
+      "authFailed": "Kullanıcı doğrulaması başarısız. Tekrar giriş yapın.",
+      "infoFetchFailed": "Sağlık problemleri yüklenemedi",
+      "generic": "Bir hata oluştu. Lütfen daha sonra tekrar deneyin.",
+      "sessionRequired": "Giriş bilgisi bulunamadı. Tekrar giriş yapın.",
+      "updateSuccessTitle": "Başarılı",
+      "updateSuccessMessage": "seçimleriniz kaydedildi.",
+      "updateFailed": "Sağlık problemleri güncellenemedi. Lütfen tekrar deneyin."
+    },
+    "buttons": {
+      "confirm": "Onayla"
+    },
+    "diseaseNames": {
+      "shoulder_joint_disorder": "Omuz Eklemi Rahatsızlığı",
+      "scoliosis": "Skolyoz",
+      "elbow_joint_disorder": "Dirsek Eklemi Rahatsızlığı",
+      "wrist_joint_disorder": "El Bileği Eklemi Rahatsızlığı",
+      "vertigo": "Vertigo",
+      "lumbar_hernia": "Bel Fıtığı",
+      "knee_joint_disorder": "Diz Eklem Rahatsızlığı",
+      "hip_joint_disorder": "Kalça Eklem Rahatsızlığı",
+      "hypertension": "Tansiyon",
+      "asthma": "Astım",
+      "ankle_disorder": "Ayak Bileği Rahatsızlığı",
+      "hip_disorder": "Kalça Rahatsızlığı",
+      "neck_disorder": "Boyun Rahatsızlığı",
+      "cervical_straightening": "Boyun Düzleşmesi",
+      "cervical_hernia": "Boyun Fıtığı",
+      "lordosis": "Lordoz",
+      "kyphosis": "Kifoz"
+    }
+  },
+  "notificationSettings": {
+    "title": "Bildirim Ayarları",
+    "settings": {
+      "general": "Genel Bildirimler",
+      "sound": "Ses",
+      "vibration": "Titreşim",
+      "reminders": "Hatırlatıcılar"
+    },
+    "buttons": {
+      "update": "Bildirimleri Güncelle"
+    },
+    "notifications": {
+      "errorTitle": "Hata",
+      "authFailed": "Kullanıcı doğrulaması başarısız. Tekrar giriş yapın.",
+      "infoFetchFailed": "Bildirim ayarları yüklenemedi",
+      "generic": "Bir hata oluştu. Lütfen tekrar deneyin.",
+      "sessionRequired": "Kullanıcı doğrulaması başarısız",
+      "updateSuccessTitle": "Başarılı",
+      "updateSuccessMessage": "Bildirim ayarları güncellendi",
+      "updateFailed": "Bildirim ayarları güncellenemedi"
+    }
+  },
+  "themeSettings": {
+    "title": "Tema Ayarları",
+    "labels": {
+      "device": "Cihaz",
+      "light": "Aydınlık Tema",
+      "dark": "Karanlık Tema"
+    }
+  },
+  "profileResetPassword": {
+    "title": "Şifreyi Güncelle",
+    "inputs": {
+      "current": "Mevcut Şifre",
+      "new": "Yeni Şifre",
+      "confirm": "Şifre Tekrar"
+    },
+    "buttons": {
+      "update": "Şifreyi Güncelle"
+    },
+    "notifications": {
+      "warningTitle": "Dikkat",
+      "mismatch": "Şifreler eşleşmiyor. Lütfen tekrar deneyin.",
+      "missingCurrent": "Mevcut şifrenizi girin.",
+      "missingNew": "Yeni şifrenizi girin.",
+      "authFailedTitle": "Hata",
+      "authFailedMessage": "Oturum doğrulanamadı. Lütfen tekrar giriş yapın.",
+      "wrongCurrent": "Mevcut şifreniz yanlış.",
+      "updateSuccessTitle": "Başarılı",
+      "updateSuccessMessage": "Şifreniz başarıyla güncellendi.",
+      "updateFailedTitle": "Hata",
+      "updateFailedMessage": "Şifre güncellenemedi. Lütfen tekrar deneyin.",
+      "genericMessage": "Bir hata oluştu. Lütfen tekrar deneyin.",
+      "passwordCriteria": "Şifre en az 8 karakter uzunluğunda olmalı ve büyük harf, küçük harf, rakam ve özel karakter içermelidir."
+    }
+  },
+  "appSettings": {
+    "title": "Uygulama Ayarları",
+    "buttons": {
+      "notificationSettings": "Bildirim Ayarları",
+      "themeSettings": "Tema Ayarları",
+      "languageSettings": "Dil Ayarları",
+      "changePassword": "Şifreni değiştir"
+    }
+  },
+  "helpContact": {
+    "title": "Sana yardımcı olalım",
+    "tabs": {
+      "faq": "SSS",
+      "contact": "İletişim"
+    },
+    "subTabs": {
+      "general": "Genel",
+      "account": "Hesap",
+      "services": "Hizmetler"
+    },
+    "releaseNotesLabel": "Yenilikler",
+    "searchPlaceholder": "Ara",
+    "faq": {
+      "general": [
+        {
+          "question": "Exereyes nedir ve neyi amaçlar?",
+          "answer": "Exereyes, Lotus Sport Teknoloji tarafından geliştirilen yapay zeka destekli bir kişisel antrenör uygulamasıdır. Amacımız, 'Herkes İçin Spor' vizyonuyla, bireylerin pahalı ekipmanlara ihtiyaç duymadan kişiselleştirilmiş egzersiz yapabilmelerini sağlamaktır."
+        },
+        {
+          "question": "Kamera nesneleri algılamıyorsa ne yapmalıyım?",
+          "answer": "Ortamın yeterince aydınlık olduğundan ve lensinizin temiz olduğundan emin olun. Objelerin bir bütün olarak taranması başarı oranını artırır. İnternet verimsizliği durumunda nesneleri manuel olarak da ekleyebilirsiniz."
+        },
+        {
+          "question": "Telefonu nereye koymalıyım?",
+          "answer": "Telefonu sabit bir yere dik bir açıyla yerleştirin. Egzersiz alanını görebilmesi için telefondan yaklaşık 1 - 1.5 metre geride durmanız idealdir."
+        },
+        {
+          "question": "Evimdeki profesyonel ekipmanları (dambıl vb.) kullanabilir miyim?",
+          "answer": "Elbette! Exereyes ev eşyaları için tasarlanmış olsa da, elinizde profesyonel ekipmanlar varsa uygun formda olanların yerine kullanabilirsiniz."
+        },
+        {
+          "question": "Uygulama ücretli mi?",
+          "answer": "Hayır. Exereyes, toplumsal kapsayıcılık ilkesi gereği temel özellikleriyle kullanıcılara ücretsiz olarak sunulmaktadır."
+        },
+        {
+          "question": "Kullanım için yaş sınırı var mı?",
+          "answer": "Uygulama 15 yaş ve üzeri için tasarlanmıştır. 18 yaşından küçüklerin kullanımı için veli/vasi onayı gerekmektedir."
+        },
+        {
+          "question": "iOS (iPhone) cihazlarda kullanabilir miyim?",
+          "answer": "Exereyes şu an Android cihazlarda tam optimize çalışmaktadır. iOS versiyonu çok yakında App Store'da yerini alacaktır."
+        },
+        {
+          "question": "Size nasıl ulaşabilirim?",
+          "answer": "Uygulama içindeki 'Contact' bölümünden, info@lotussport.net e-posta adresinden veya +90 532 671 1570 numaralı telefondan bize ulaşabilirsiniz."
+        }
+      ],
+      "account": [
+        {
+          "question": "Profilimi nasıl oluştururum ve neleri değiştirebilirim?",
+          "answer": "Telefon numaranızla giriş yapıp doğrulama kodunu girdikten sonra profilinizi oluşturabilirsiniz. Ad-Soyad, Boy, Kilo ve Yaş bilgilerinizi dilediğiniz zaman güncelleyebilirsiniz."
+        },
+        {
+          "question": "Kamera görüntülerim kaydediliyor mu?",
+          "answer": "Kamera görüntüleri anlık olarak işlenir ve kural olarak sunucularımıza kaydedilmez. Sadece açık rıza vermeniz durumunda yapay zekayı geliştirmek için anonim olarak kullanılabilir. Verileriniz KVKK standartlarında korunur."
+        },
+        {
+          "question": "Hesabımı silersem verilerime ne olur?",
+          "answer": "Hesabınızı sildiğinizde verileriniz yasal saklama süreleri sonunda kalıcı olarak imha edilir veya anonim hale getirilir. Bu işlem geri alınamaz."
+        }
+      ],
+      "services": [
+        {
+          "question": "Evimde spor aleti yok, uygulama nasıl çalışıyor?",
+          "answer": "Exereyes; sandalye, su şişesi, kitap veya dolu çanta gibi nesneleri kamera aracılığıyla tanıyarak bunları spor ekipmanına dönüştürür ve size uygun program oluşturur."
+        },
+        {
+          "question": "Sağlık sorunlarım (Bel/Boyun fıtığı vb.) dikkate alınıyor mu?",
+          "answer": "Evet. 'Health History' ekranında fıtık, skolyoz veya hipertansiyon gibi durumlarınızı işaretleyebilirsiniz. Yapay zeka, sağlığınızı riske atabilecek hareketleri programdan otomatik çıkarır."
+        },
+        {
+          "question": "Sakatlıklar için özelleştirme var mı?",
+          "answer": "Kesinlikle. 'Injuries' sekmesinden omuz, diz, bilek gibi sorunlu bölgeleri seçebilirsiniz. Sistem bu bölgeleri zorlamayan alternatif egzersizler sunar."
+        },
+        {
+          "question": "İnternet bağlantısı olmadan çalışır mı?",
+          "answer": "Nesne tanıma işlemleri bulut tabanlı sistemlerde yapıldığı için aktif internet bağlantısı gereklidir. Ancak profilinizdeki bazı temel bilgileri çevrimdışı görüntüleyebilirsiniz."
+        },
+        {
+          "question": "Kalori yakımı ve antrenman geçmişi gösteriliyor mu?",
+          "answer": "Evet. Profil bilgilerinize göre tahmini kalori yakımı hesaplanır. Günlük, haftalık ve aylık geçmişinizi istatistiksel olarak takip edebilirsiniz."
+        }
+      ]
+    },
+    "accountActions": {
+      "deactivateTitle": "Hesabını Devre Dışı Bırak",
+      "deactivateDescription": "Hesabınızı devre dışı bırakmak istediğinizde, tüm verileriniz silinir ve hesabınıza tekrar erişemezsiniz. Bu işlem geri alınamaz.",
+      "deactivateButton": "Hesabını Devre Dışı Bırak",
+      "deleteTitle": "Hesabını Sil",
+      "deleteDescription": "Hesabınızı kalıcı olarak silmek istediğinizde, tüm verileriniz kalıcı olarak silinir ve hesabınıza tekrar erişemezsiniz. Bu işlem geri alınamaz ve devre dışı bırakmadan daha kalıcıdır.",
+      "deleteButton": "Hesabını Sil"
+    },
+    "alerts": {
+      "deleteTitle": "Hesabını Sil",
+      "deleteMessage": "Hesabınızı kalıcı olarak silmek istediğinize emin misiniz? Bu işlem geri alınamaz ve tüm verileriniz kalıcı olarak silinir.",
+      "deleteCancel": "İptal",
+      "deleteConfirm": "Sil",
+      "deactivateTitle": "Hesabını Devre Dışı Bırak",
+      "deactivateMessage": "Hesabınızı devre dışı bırakmak istediğinize emin misiniz? Bu işlem geri alınamaz.",
+      "deactivateCancel": "İptal",
+      "deactivateConfirm": "Devre Dışı Bırak"
+    },
+    "notifications": {
+      "errorTitle": "Hata",
+      "authFailed": "Geçerli bir oturum yok. Lütfen giriş yapın.",
+      "deleteSuccessTitle": "Hesap Silindi",
+      "deleteSuccessMessage": "Hesabınız başarıyla silindi.",
+      "deleteFailed": "Hesap silinemedi. Lütfen tekrar deneyin.",
+      "deactivateSuccessTitle": "Hesap Devre Dışı Bırakıldı",
+      "deactivateSuccessMessage": "Hesabınız başarıyla devre dışı bırakıldı.",
+      "deactivateFailed": "Hesap devre dışı bırakılamadı. Lütfen tekrar deneyin.",
+      "generic": "Bir hata oluştu. Lütfen tekrar deneyin."
+    },
+    "contact": {
+      "address": {
+        "heading": "Adres",
+        "value": "Entertech İstanbul Teknokent"
+      },
+      "phone": {
+        "heading": "Telefon",
+        "value": "+90 532 671 1570",
+        "workingHours": "Çalışma Saatleri: 09:00 - 18:00 (GMT+2)"
+      },
+      "email": {
+        "heading": "E - Posta",
+        "values": ["support@lotussport.net", "info@lotussport.net"]
+      },
+      "website": {
+        "heading": "Web Sitesi",
+        "value": "https://www.lotussport.net/exereyes"
+      },
+      "social": {
+        "heading": "Sosyal Medya",
+        "instagram": {
+          "label": "📷 Instagram:",
+          "value": "@exereyes"
+        },
+        "linkedin": {
+          "label": "💼 LinkedIn:",
+          "value": "Exereyes"
+        }
+      }
+    }
+  },
+  "singleArticle": {
+    "notFound": "Makale bulunamadı",
+    "publicationDate": "Yayınlanma Tarihi:",
+    "title": "Yazılar"
+  },
+  "homeFront": {
+    "notifications": {
+      "sessionRequiredTitle": "Oturum gerekli",
+      "sessionRequiredMessage": "Lütfen tekrar giriş yapın.",
+      "errorTitle": "Hata"
+    },
+    "quickStart": {
+      "title": "Hızlı Başla",
+      "home": "Evde",
+      "outdoor": "Dışarıda"
+    },
+    "exerAiAnalysis": "ExerAI Analizi",
+    "exercises": {
+      "title": "Egzersizler",
+      "viewAll": "Tüm Egzersizler",
+      "empty": "Egzersiz bulunamadı"
+    },
+    "topFive": "TOP 3",
+    "articles": "Yazılar",
+    "articlesViewAll": "Tüm Yazılar"
+  },
+  "challenge": {
+    "title": "Lig Sıralaması",
+    "you": "(Sen)",
+    "rank": "Sıra:",
+    "points": "Puan",
+    "workouts": "Antrenman",
+    "notifications": {
+      "errorTitle": "Hata",
+      "authError": "Kullanıcı doğrulama hatası. Lütfen tekrar giriş yapın.",
+      "fetchListError": "Challenge listesi alınamadı.",
+      "fetchListGenericError": "Challenge listesi alınırken bir hata oluştu."
+    },
+    "motivation": {
+      "top": ["Şampiyonsun!", "Zirvedesin!", "Rakipsizsin! 💪"],
+      "middle": [
+        "Harika gidiyorsun!",
+        "Az kaldı zirveye! 🔥",
+        "İstikrarlı devam et!"
+      ],
+      "bottom": [
+        "Daha çok çalışabilirsin! 💪",
+        "Pes etme, devam et!",
+        "Kendine güven, başaracaksın!"
+      ]
+    }
+  },
+  "friendship": {
+    "headerTitle": "Arkadaşlar",
+    "actions": {
+      "searchUsers": "Kullanıcı Ara",
+      "incomingRequests": "Gelen İstekler"
+    },
+    "friendsList": {
+      "title": "Arkadaşlarım ({{count}})",
+      "emptyTitle": "Henüz arkadaşınız yok",
+      "emptySubtitle": "Üstteki arama ikonuna tıklayarak kullanıcı arayabilirsiniz"
+    },
+    "searchModal": {
+      "title": "Kullanıcı Ara",
+      "placeholder": "Kullanıcı ara...",
+      "toggleName": "İsim",
+      "toggleId": "ID",
+      "results": "Arama Sonuçları",
+      "friends": "Arkadaşlarım",
+      "others": "Diğer Kullanıcılar",
+      "emptyGuide": "Arama yapmak için üstteki alana yazıp ara butonuna basın"
+    },
+    "requestsModal": {
+      "title": "Arkadaşlık İstekleri",
+      "empty": "Gelen arkadaşlık isteği yok"
+    },
+    "notifications": {
+      "errorTitle": "Hata",
+      "warningTitle": "Uyarı",
+      "infoTitle": "Bilgi",
+      "successTitle": "Başarılı",
+      "userFetchFailed": "Kullanıcı bilgisi alınamadı.",
+      "generic": "Bir hata oluştu. Lütfen daha sonra tekrar deneyin.",
+      "profilePhotoMissingTitle": "Hata!",
+      "profilePhotoMissing": "Profil fotoğrafı bulunamadı.",
+      "searchMissingTerm": "Lütfen arama terimi girin.",
+      "invalidId": "Geçerli bir ID girin.",
+      "searchNotFound": "Arama sonucu bulunamadı.",
+      "searchError": "Arama sırasında bir hata oluştu.",
+      "requestSent": "Arkadaşlık isteği gönderildi!",
+      "requestSendFailed": "Arkadaşlık isteği gönderilemedi.",
+      "requestDeclined": "Arkadaşlık isteği reddedildi.",
+      "requestDeclineFailed": "İstek reddedilemedi.",
+      "requestAccepted": "Arkadaşlık isteği kabul edildi!",
+      "requestAcceptFailed": "İstek kabul edilemedi.",
+      "requestCanceled": "İstek iptal edildi.",
+      "requestCancelFailed": "İstek iptal edilemedi.",
+      "friendRemoved": "Arkadaş kaldırıldı.",
+      "friendRemoveFailed": "Arkadaş kaldırılamadı."
+    },
+    "alerts": {
+      "removeFriendTitle": "Arkadaşı Kaldır",
+      "removeFriendMessage": "Bu kişiyi arkadaş listesinden kaldırmak istediğinizden emin misiniz?",
+      "cancel": "İptal",
+      "remove": "Kaldır"
+    }
+  },
+  "friendDetail": {
+    "headerTitle": "Arkadaş Detayı",
+    "chips": {
+      "streak": "Seri: {{count}} gün",
+      "lastLogin": "Son giriş: {{time}}"
+    },
+    "sections": {
+      "stats": "İstatistikler",
+      "contact": "İletişim"
+    },
+    "stats": {
+      "totalScore": "Toplam Puan",
+      "completedWorkouts": "Tamamlanan Antrenman",
+      "totalDuration": "Toplam Süre",
+      "totalCalories": "Toplam Kalori"
+    },
+    "info": {
+      "email": "E-posta"
+    },
+    "actions": {
+      "removing": "Kaldırılıyor...",
+      "removeFriend": "Arkadaşlıktan çıkar",
+      "requestPendingCancel": "İstek gönderildi (İptal et)",
+      "sending": "Gönderiliyor...",
+      "addFriend": "Arkadaş ekle"
+    },
+    "alerts": {
+      "removeFriendTitle": "Arkadaşı Kaldır",
+      "removeFriendMessage": "{{fullName}} kişisini arkadaş listesinden kaldırmak istediğinizden emin misiniz?",
+      "cancel": "İptal",
+      "remove": "Kaldır"
+    }
+  },
+  "programSelect": {
+    "selectedDayWorkout": "Seçili Günün Antrenmanı",
+    "workout": "Antrenman",
+    "minutes": "dk",
+    "noWorkoutForDate": "Bu tarih için antrenman bulunamadı.",
+    "startWorkout": "Antremana Başla",
+    "notTodayWorkout": "Bu antreman için henüz vakit gelmedi",
+    "generalInfo": "Genel Bilgiler",
+    "start": "Başlangıç",
+    "duration": "Süre",
+    "level": "Seviye",
+    "targetRegion": "Hedef Bölge",
+    "summary": "Özet",
+    "leaveProgram": "Programdan Çık",
+    "leaving": "Çıkılıyor...",
+    "week": "hafta"
+  },
+  "programFront": {
+    "title": "Programlar",
+    "filters": "Filtreler",
+    "level": "Seviye",
+    "loading": "Yükleniyor",
+    "showAll": "Tüm {{count}} programı göster",
+    "cardA11y": "{{name}} program kartı",
+    "summaryA11y": "Program Özeti",
+    "coach": "Koç: {{name}}",
+    "difficulty": "Zorluk: {{level}}",
+    "weeks": "{{count}} {{weekLabel}}",
+    "close": "Kapat",
+    "start": "Programı Başlat",
+    "starting": "Başlatılıyor...",
+    "duration": "Süre",
+    "region": "Bölge",
+    "noResults": "Sonuç bulunamadı"
+  },
+  "common": { "all": "Hepsi", "loading": "Lütfen bekleyin." },
+  "onboarding": {
+    "screen1": {
+      "subtitle": "Evin senin spor salonun, eşyaların ekipmanın olsun."
+    },
+    "screen2": {
+      "subtitle": "Spor yapmak hiç bu kadar 'Ev Yapımı' olmamıştı."
+    },
+    "screen3": {
+      "subtitle": "Geleceğin antremanı şimdi cebinde!"
+    },
+    "screen4": {
+      "subtitle": "EXERAI Hazır, Ya Sen?"
+    },
+    "next": "İleri",
+    "start": "Haydi başlayalım"
+  },
+  "statistics": {
+    "title": "İstatistiklerim",
+    "errorText": "Veri bulunamadı.",
+    "days": {
+      "sunday": "Pazar",
+      "monday": "Pazartesi",
+      "tuesday": "Salı",
+      "wednesday": "Çarşamba",
+      "thursday": "Perşembe",
+      "friday": "Cuma",
+      "saturday": "Cumartesi"
+    }
+  },
+  "statisticsCard": {
+    "calorie": {
+      "title": "Toplam Kalori",
+      "suffix": "kcal"
+    },
+    "duration": {
+      "title": "Toplam Süre",
+      "suffix": "dk"
+    },
+    "loginStreak": {
+      "title": "Uygulamaya Giriş",
+      "suffix": "kez"
+    },
+    "score": {
+      "title": "Toplam Skor",
+      "suffix": "puan"
+    },
+    "workouts": {
+      "title": "Toplam Antrenman",
+      "suffix": "adet"
+    }
+  },
+  "statisticsChart": {
+    "tabs": {
+      "week": "Hafta",
+      "month": "Ay"
+    },
+    "normalize": {
+      "on": "Normalize: Açık",
+      "off": "Normalize: Kapalı"
+    },
+    "dailyCalories": {
+      "week": "Günlük Kalori (7 gün)",
+      "month": "Günlük Kalori (30 gün)"
+    },
+    "dailyWorkoutCount": {
+      "week": "Günlere Göre Antrenman Sayısı",
+      "month": "Günlere Göre Antrenman Sayısı (30 gün)"
+    },
+    "normalizedIndicator": "— Min–Max [0,1]",
+    "weekDayLabels": {
+      "monday": "Pzt",
+      "tuesday": "Sal",
+      "wednesday": "Çar",
+      "thursday": "Per",
+      "friday": "Cum",
+      "saturday": "Cmt",
+      "sunday": "Paz"
+    }
+  },
+  "notificationsFront": {
+    "emptyText": "Yeni bildiriminiz yok.",
+    "markAllRead": "Tümünü oku"
+  },
+  "setup": {
+    "diseases": {
+      "shoulder_joint_disorder": "Omuz Eklemi Rahatsızlığı",
+      "scoliosis": "Skolyoz",
+      "elbow_joint_disorder": "Dirsek Eklemi Rahatsızlığı",
+      "wrist_joint_disorder": "El Bileği Eklemi Rahatsızlığı",
+      "vertigo": "Vertigo",
+      "lumbar_hernia": "Bel Fıtığı",
+      "knee_joint_disorder": "Diz Eklem Rahatsızlığı",
+      "hip_joint_disorder": "Kalça Eklem Rahatsızlığı",
+      "hypertension": "Tansiyon",
+      "asthma": "Astım",
+      "ankle_disorder": "Ayak Bileği Rahatsızlığı",
+      "hip_disorder": "Kalça Rahatsızlığı",
+      "neck_disorder": "Boyun Rahatsızlığı",
+      "cervical_straightening": "Boyun Düzleşmesi",
+      "cervical_hernia": "Boyun Fıtığı",
+      "lordosis": "Lordoz",
+      "kyphosis": "Kifoz"
+    },
+    "gender": {
+      "title": "Biyolojik Cinsiyet",
+      "subtitle": "Sana özel kişiselleştirilmiş antrenman programlarını oluşturabilmemiz için cinsiyet seçimini yapman gerekmektedir.",
+      "male": "Erkek",
+      "female": "Kadın"
+    },
+    "age": {
+      "title": "Yaşınız",
+      "subtitle": "Sana özel kişiselleştirilmiş antrenman programını oluşturmak için yaşını belirtmen gerekmektedir."
+    },
+    "height": {
+      "title": "Boyunuz",
+      "subtitle": "Sana özel kişiselleştirilmiş antrenman programını oluşturmak için doğru uzunluğu belirtmen gerekmektedir.",
+      "unit": "Cm"
+    },
+    "weight": {
+      "title": "Kilonuz",
+      "subtitle": "Sana özel kişiselleştirilmiş antrenman programını oluşturmak için kilonuzu belirtmeniz gerekmektedir.",
+      "unit": "Kg"
+    },
+    "fitnessGoal": {
+      "title": "Hedeflerinizi Seçin",
+      "options": {
+        "loseWeight": "Kilo Verme",
+        "toning": "Sıkılaşma",
+        "strength": "Güçlenme",
+        "flexibility": "Esneklik Artırma"
+      },
+      "warningTitle": "Uyarı",
+      "maxSelection": "En fazla üç hedef seçebilirsin."
+    },
+    "experience": {
+      "title": "Deneyim Seviyenizi Seçin",
+      "options": {
+        "beginner": "0-1 yıl",
+        "intermediate": "1-3 yıl",
+        "advanced": "3+ yıl"
+      }
+    },
+    "healthProblems": {
+      "title": "Sağlık Problemleriniz",
+      "notifications": {
+        "errorTitle": "Hata",
+        "authFailed": "Kullanıcı doğrulaması başarısız. Tekrar giriş yapın.",
+        "loadFailed": "Sağlık problemleri yüklenemedi"
+      }
+    },
+    "injuries": {
+      "title": "Geçmiş Yaralanmalarınız",
+      "notifications": {
+        "errorTitle": "Hata",
+        "authFailed": "Oturum doğrulanamadı. Lütfen tekrar giriş yapın.",
+        "loadFailed": "Sağlık problemleri yüklenemedi",
+        "successTitle": "Başarılı",
+        "successMessage": "Profil başarıyla güncellendi.",
+        "failTitle": "Başarısız",
+        "failMessage": "Profil güncelleme başarısız.",
+        "generic": "Bir hata oluştu. Lütfen tekrar deneyin."
+      }
+    },
+    "next": "Devam",
+    "title": "Yaşınız",
+    "physicalActivityLevel": "Fiziksel Aktivite Seviyenizi Seçin",
+    "subtitle": "Sana özel kişiselleştirilmiş antrenman programını oluşturmak için yaşını belirtmen gerekmektedir."
+  },
+  "privacyPolicy": {
+    "title": "GİZLİLİK POLİTİKASI",
+    "intro": "Bu gizlilik bildirimi, Lotus Sport web sitesinin veriyi toplama ve kullanma yöntemini açıklar. Sizlere daha iyi hizmet verebilmek amacıyla, bu uygulamaya erişim sağladığınızda sizden bazı kişisel bilgilerinizi istemekteyiz. Bunlar arasında; isim, soy isim, e-posta adresi, cep telefonu vb. bilgiler yer almaktadır. Bu bilgiler sitenin iyileştirilmesi ve müşteri eğilimlerinin anlaşılması için kullanılabilir.",
+    "dataSharing": "Lotus Sport, topladığı bilgileri sizin haberiniz olmadan üçüncü şahıslarla kesinlikle paylaşmaz, faaliyet dışı hiçbir nedenle ticari amaçla kullanmaz ve satmaz.",
+    "cookiePolicyTitle": "LOTUS SPORT ve EXEREYES ÇEREZ POLİTİKASI",
+    "cookiePolicyIntro": "İşbu çerez politikasında, elektronik iletişim gizliliği hakkında AB Direktifi'ne tabi çerezler ile diğer benzeri teknolojilere atıfta bulunmak için \"çerez\" terimini kullanıyoruz.",
+    "whatAreCookies": {
+      "title": "Çerezler Nedir?",
+      "content": "Çerezler, web sitelerinde bulunan küçük, genellikle şifrelenmiş metin dosyalarıdır. Web geliştiricileri tarafından, kullanıcıların web sitelerinde verimli bir şekilde gezinmelerine ve belirli işlevleri gerçekleştirmelerine yardımcı olmak için kullanılırlar. Çoğu web tarayıcısı çerezleri destekler; ancak kullanıcılar tarayıcılarını belirli türlerdeki çerezleri reddedecek şekilde ayarlayabilir veya istedikleri zaman silebilirler."
+    },
+    "whatCookiesCannotDo": {
+      "title": "Çerezler Neler Yapamazlar?",
+      "content": "Çerezler düz metin dosyalarıdır; bilgisayarınıza veya kişisel verilerinize doğrudan erişemezler. Yalnızca web sitelerinin işlevselliğini artırmak için kullanılırlar. Bu sayede oturum açma, dil tercihleri, tema seçimleri veya alışveriş sepeti gibi özellikler düzgün şekilde çalışır."
+    },
+    "howCookiesCollected": {
+      "title": "Çerezler Nasıl Toplanır?",
+      "content": "Çerezlerin kullandığı veriler, tarayıcıya eriştiğiniz cihazlar aracılığıyla toplanır. Bu bilgiler cihazlara özeldir ve kullanıcı tarafından istenildiğinde silinebilir veya kısıtlanabilir."
+    },
+    "whyUseCookies": {
+      "title": "Neden Çerezleri Uygulamamızda Kullanıyoruz?",
+      "content": "Uygulamamızda kullanıcı deneyiminizi artırmak, etkileşimlerinizi analiz etmek ve ziyaret deneyiminizi geliştirmek için çerezleri kullanıyoruz. Örneğin; tercih ettiğiniz dili, kullanıcı adınızı veya alışveriş sepetinizi hatırlayarak işlemlerinizi kolaylaştırır. Ayrıca bazı çerezler, size kişiselleştirilmiş reklamlar gösterebilmek için davranışlarınızı analiz edebilir."
+    },
+    "cookieTypes": {
+      "title": "Uygulamamızda Ne Tür Çerezler Kullanıyoruz?",
+      "content": "Oturum Çerezleri: Tarayıcınızı kapattığınızda silinen geçici çerezlerdir. Kalıcı Çerezler: Tarayıcınızın alt klasörlerinde belirli bir süre boyunca veya manuel olarak silinene kadar saklanır."
+    },
+    "contactUs": {
+      "title": "Bizimle İletişime Geçin",
+      "content": "Çerez Politikası ile ilgili tüm soru ve görüşlerinizi bize iletmek için info@lotussport.net adresinden bizimle iletişime geçebilirsiniz."
+    }
+  },
+  "exerciseDetailCard": {
+    "exerciseDescription": "Egzersiz Açıklaması"
+  },
+  "congratulations": {
+    "congrats": "Tebrikler",
+    "congratsContent": "Antrenman tamamladın. Devam ederek sıralamanı daha da yükseltebilirsin",
+    "continue": "Devam Et"
+  }
+}

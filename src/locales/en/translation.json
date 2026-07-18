@@ -1,0 +1,1009 @@
+{
+  "languageSettings": {
+    "title": "Language settings",
+    "subtitle": "Choose how ExerEyes speaks to you. You can update this anytime.",
+    "searchPlaceholder": "Search languages",
+    "systemBadge": "System",
+    "activeBadge": "Active",
+    "applyButton": "Apply",
+    "applyingLabel": "Applying...",
+    "toastSuccess": "Language updated.",
+    "toastError": "We couldn't update the language. Please try again.",
+    "emptyResult": "No languages match your search.",
+    "languageList": {
+      "en": {
+        "name": "English",
+        "nativeName": "English",
+        "region": "Global"
+      },
+      "tr": {
+        "name": "Turkish",
+        "nativeName": "Türkçe",
+        "region": "Türkiye"
+      }
+    }
+  },
+  "workout": {
+    "noWorkoutsFound": "No such workout yet! We are always updating our workout list. Please check out later",
+    "notifications": {
+      "sessionRequiredTitle": "Session required",
+      "sessionRequiredMessage": "Please sign in again."
+    },
+    "info": {
+      "selectGoalEquipment": "Pick your training goal and equipment",
+      "selectTargetRegion": "Choose your target region"
+    },
+    "options": {
+      "endurance": "Mobility",
+      "strength": "Strength",
+      "cardio": "Cardio"
+    },
+    "equipment": {
+      "withEquipment": "With equipment",
+      "bodyweight": "Bodyweight"
+    },
+    "mapping": {
+      "leg": "Leg",
+      "arm": "Arm",
+      "abdomen": "Abdomen",
+      "chest": "Chest",
+      "shoulder": "Shoulder",
+      "back": "Back"
+    }
+  },
+  "activityModule": {
+    "warmup": "WARMUP",
+    "main": "MAIN",
+    "cooldown": "COOL DOWN",
+    "startButton": "Start",
+    "difficulty": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    },
+    "summary": {
+      "button": "Exercise Summary",
+      "instructions": "Instructions",
+      "video": "Play Video"
+    },
+    "session": {
+      "progressModal": {
+        "rest": "Rest",
+        "time": "time",
+        "repetition": "repetition",
+        "workoutContent": "Workout Content"
+      },
+      "restScreen": {
+        "nextSet": "Next Set",
+        "nextExercise": "Next Exercise",
+        "rest": "Rest",
+        "second": "Seconds",
+        "continueButton": "Continue"
+      }
+    }
+  },
+  "favorites": {
+    "title": "Your favorite workouts",
+    "empty": "You haven't favorited any workouts yet."
+  },
+  "quickStart": {
+    "title": {
+      "home": "Quick Start at Home",
+      "outdoor": "Quick Start Outdoors"
+    },
+    "filters": {
+      "title": "Filter",
+      "reset": "Reset",
+      "type": "Workout Type",
+      "all": "All",
+      "no_equipment": "No Equipment",
+      "equipped": "Equipped",
+      "selectEquipment": "Your Equipments",
+      "apply": "Apply Filters"
+    }
+  },
+  "aiAnalyse": {
+    "title": "ExerAI Analysis",
+    "loadingText": "Creating analysis...",
+    "emptyText": "You don't have an ExerAI analysis yet",
+    "buttonText": "Request New Analysis",
+    "analyseLoading": "ExerAi process may take a moment...",
+    "notifications": {
+      "fetchError": "Could not fetch analysis data",
+      "createError": "Analysis could not be created.",
+      "genericError": "An error occurred."
+    }
+  },
+  "exerciseLibrary": {
+    "searchPlaceholder": "Search exercises...",
+    "emptyResults": "No results found",
+    "videoNotFound": "Video not found",
+    "closeButton": "Close"
+  },
+  "exereyes": {
+    "placeholders": {
+      "addPhoto": "Add Photos"
+    },
+    "headerTitle": "Explore Your Space",
+    "buttons": {
+      "camera": "Camera",
+      "gallery": "Gallery",
+      "detect": "Detect"
+    },
+    "alerts": {
+      "permissionTitle": "Camera permission required",
+      "permissionMessage": "We need camera access to take photos.",
+      "permissionNeutral": "Ask later",
+      "permissionNegative": "Cancel",
+      "permissionPositive": "Allow",
+      "permissionDenied": "Camera permission was not granted",
+      "limitTitle": "Maximum photo limit",
+      "limitMessage": "You can add up to {{count}} photos.",
+      "noPhotos": "No photos selected",
+      "errorDetecting": "We couldn't detect equipment. Please try again."
+    },
+    "info": {
+      "title1": "Prepare your photos",
+      "description1": "Select or capture up to 4 equipment photos. Then tap “Detect” and let Exereyes analyse them.",
+      "title2": "Review your results",
+      "description2": "Check the detected equipment. Tap any item to adjust the list.",
+      "title3": "Personalize your workout",
+      "description3": "Pick training regions and intensity, then start a workout tailored for you!"
+    },
+    "modal": {
+      "back": "Back",
+      "next": "Next",
+      "ready": "I'm ready"
+    }
+  },
+  "equipmentOverride": {
+    "notifications": {
+      "authErrorTitle": "Error",
+      "authErrorMessage": "Authentication failed. Please sign in again.",
+      "fetchError": "We couldn’t load the equipments."
+    },
+    "sections": {
+      "selected": "Detected equipments",
+      "available": "Did we miss something?"
+    },
+    "empty": {
+      "selected": "No equipments selected yet.",
+      "available": "All equipments are selected."
+    },
+    "continue": "Continue"
+  },
+  "exerciseConfigure": {
+    "labels": {
+      "selectRegion": "Choose your target region",
+      "selectGoalEquipment": "Pick your training goal and equipment",
+      "adjustIntensity": "Adjust workout intensity",
+      "intensity": "Intensity"
+    },
+    "options": {
+      "endurance": "Mobility",
+      "strength": "Strength",
+      "cardio": "Cardio"
+    },
+    "notifications": {
+      "errorTitle": "Error",
+      "selectRegion": "Please choose at least one body region.",
+      "selectEquipment": "Please choose at least one equipment and up to 3 equipments.",
+      "selectGoal": "Please choose a training goal.",
+      "sessionRequired": "Authentication failed. Please sign in again.",
+      "fetchError": "Couldn’t fetch exercises for the selected settings.",
+      "maxRegions": "You can select up to 1 body region."
+    },
+    "alerts": {
+      "sessionRequiredTitle": "Session required",
+      "sessionRequiredMessage": "Please sign in again.",
+      "fetchError": "We couldn’t retrieve the muscle groups. Please try again.",
+      "noExercises": "We couldn’t generate an exercise list for these settings."
+    },
+    "cta": "Continue"
+  },
+  "profile": {
+    "logoutSuccess": "Bye for now! Hope to see you back tomorrow.",
+    "defaults": {
+      "firstName": "Name",
+      "lastName": "Surname",
+      "placeholderPhoto": "Add Photo"
+    },
+    "notifications": {
+      "errorTitle": "Error",
+      "authFailed": "User authentication failed. Please sign in again.",
+      "infoFetchFailed": "We couldn’t load your user information.",
+      "generic": "Something went wrong. Please try again.",
+      "photoMissingTitle": "Error!",
+      "photoMissingMessage": "Profile photo could not be found.",
+      "logoutCancelTitle": "Success",
+      "logoutCancelMessage": "You stayed signed in.",
+      "logoutSuccessTitle": "Signed out",
+      "logoutSuccessMessage": "You have been signed out successfully.",
+      "logoutFailureTitle": "Error",
+      "logoutFailureMessage": "We couldn't sign you out. Please try again.",
+      "deactivateStayTitle": "Great!",
+      "deactivateStayMessage": "We’re glad you’re staying with us. Let’s keep going!",
+      "deactivateSuccessTitle": "Account frozen",
+      "deactivateSuccessMessage": "We’re sorry to see you go. Hope to see you soon!",
+      "deactivateFailureTitle": "Error",
+      "deactivateFailureMessage": "We couldn't freeze your account. Please try again.",
+      "sessionRequired": "No valid session. Please sign in."
+    },
+    "alerts": {
+      "logoutTitle": "Sign Out",
+      "logoutMessage": "Are you sure you want to sign out?",
+      "logoutCancel": "No",
+      "logoutConfirm": "Yes",
+      "deactivateTitle": "Freeze Account",
+      "deactivateMessage": "Are you sure you want to freeze your account?",
+      "deactivateCancel": "No",
+      "deactivateConfirm": "Yes"
+    },
+    "buttons": {
+      "updateProfile": "Update Profile",
+      "physicalProfile": "My Physical Profile",
+      "settings": "Settings",
+      "privacy": "Privacy Policy",
+      "help": "Help / Contact",
+      "logout": "Sign Out"
+    },
+    "idLabel": "ID: {{id}}"
+  },
+  "updateProfile": {
+    "placeholders": {
+      "photo": "Add Photo",
+      "weight": "Kg",
+      "age": "Age",
+      "height": "Cm",
+      "phone": "Phone"
+    },
+    "labels": {
+      "weight": "Kilograms",
+      "age": "Age",
+      "height": "Height",
+      "fullName": "Full name",
+      "email": "Email",
+      "phone": "Phone number"
+    },
+    "buttons": {
+      "update": "Update profile"
+    },
+    "notifications": {
+      "errorTitle": "Error",
+      "authFailed": "User authentication failed. Please sign in again.",
+      "infoFetchFailed": "We couldn’t load your user information.",
+      "generic": "Something went wrong. Please try again.",
+      "photoMissingTitle": "Error!",
+      "photoMissingMessage": "Profile photo could not be found.",
+      "selectCancelledTitle": "Cancelled",
+      "selectCancelledMessage": "Photo selection was cancelled.",
+      "selectFailed": "Photo selection failed.",
+      "uploadSuccessTitle": "Success",
+      "uploadSuccessMessage": "Profile photo updated!",
+      "uploadFailed": "We couldn't update the profile photo.",
+      "updateSuccessTitle": "Success",
+      "updateSuccessMessage": "Profile updated!",
+      "updateFailed": "Profile update failed.",
+      "updateError": "An error occurred while updating."
+    }
+  },
+  "physicalProfile": {
+    "title": "Set your goal",
+    "buttons": {
+      "exerciseGoal": "Training Goal",
+      "exerciseExperience": "Training Experience",
+      "activityLevel": "Physical Activity Level",
+      "healthHistory": "Health History",
+      "fitnessTests": "Fitness Assessments"
+    }
+  },
+  "exerciseGoal": {
+    "title": "Training Goal",
+    "subtitle": "You can choose up to 3 goals.",
+    "options": {
+      "loseWeight": "Lose weight",
+      "toning": "Toning",
+      "strength": "Strength",
+      "flexibility": "Improve flexibility"
+    },
+    "notifications": {
+      "errorTitle": "Error",
+      "authFailed": "User authentication failed. Please sign in again.",
+      "infoFetchFailed": "We couldn’t load your user information.",
+      "generic": "Something went wrong. Please try again.",
+      "missingSelection": "Please select at least one goal.",
+      "sessionRequired": "No authentication token found. Please sign in.",
+      "updateSuccessTitle": "Success",
+      "updateSuccessMessage": "Profile updated!",
+      "updateFailed": "Profile update failed.",
+      "updateError": "An error occurred during the update.",
+      "maxSelection": "You can select up to 3 goals."
+    },
+    "buttons": {
+      "confirm": "Confirm"
+    }
+  },
+  "exerciseExperience": {
+    "title": "Training Experience",
+    "options": {
+      "beginner": "0-1 year",
+      "intermediate": "1-3 years",
+      "advanced": "3+ years"
+    },
+    "notifications": {
+      "errorTitle": "Error",
+      "authFailed": "User authentication failed. Please sign in again.",
+      "infoFetchFailed": "We couldn’t load your user information.",
+      "generic": "Something went wrong. Please try again.",
+      "invalidInfo": "User information is incorrect.",
+      "missingSelection": "Please choose an option.",
+      "sessionRequired": "No authentication token found. Please sign in.",
+      "updateSuccessTitle": "Success",
+      "updateSuccessMessage": "Profile updated!",
+      "updateFailed": "Profile update failed.",
+      "updateError": "An error occurred during the update."
+    },
+    "buttons": {
+      "confirm": "Confirm"
+    }
+  },
+  "activityLevel": {
+    "title": "Activity Level",
+    "options": {
+      "beginner": "Beginner",
+      "intermediate": "Intermediate",
+      "advanced": "Advanced"
+    },
+    "notifications": {
+      "errorTitle": "Error",
+      "authFailed": "User authentication failed. Please sign in again.",
+      "infoFetchFailed": "We couldn’t load your user information.",
+      "generic": "Something went wrong. Please try again.",
+      "missingSelection": "Please choose an option.",
+      "sessionRequired": "No authentication token found. Please sign in.",
+      "updateSuccessTitle": "Success",
+      "updateSuccessMessage": "Profile updated!",
+      "updateFailed": "Profile update failed.",
+      "updateError": "An error occurred during the update."
+    },
+    "buttons": {
+      "confirm": "Confirm"
+    }
+  },
+  "healthProblems": {
+    "title": "Health History",
+    "warning": "Don't forget to confirm changes",
+
+    "tabs": {
+      "diseases": "Health Conditions",
+      "injuries": "Injuries"
+    },
+    "notifications": {
+      "errorTitle": "Error",
+      "authFailed": "User authentication failed. Please sign in again.",
+      "infoFetchFailed": "We couldn’t load the health conditions.",
+      "generic": "Something went wrong. Please try again.",
+      "sessionRequired": "No authentication token found. Please sign in.",
+      "updateSuccessTitle": "Success",
+      "updateSuccessMessage": "selections saved.",
+      "updateFailed": "We couldn’t update the health conditions. Please try again."
+    },
+    "buttons": {
+      "confirm": "Confirm"
+    },
+    "diseaseNames": {
+      "shoulder_joint_disorder": "Shoulder Joint Disorder",
+      "scoliosis": "Scoliosis",
+      "elbow_joint_disorder": "Elbow Joint Disorder",
+      "wrist_joint_disorder": "Wrist Joint Disorder",
+      "vertigo": "Vertigo",
+      "lumbar_hernia": "Lumbar Hernia",
+      "knee_joint_disorder": "Knee Joint Disorder",
+      "hip_joint_disorder": "Hip Joint Disorder",
+      "hypertension": "Hypertension",
+      "asthma": "Asthma",
+      "ankle_disorder": "Ankle Disorder",
+      "hip_disorder": "Hip Disorder",
+      "neck_disorder": "Neck Disorder",
+      "cervical_straightening": "Cervical Straightening",
+      "cervical_hernia": "Cervical Hernia",
+      "lordosis": "Lordosis",
+      "kyphosis": "Kyphosis"
+    }
+  },
+  "notificationSettings": {
+    "title": "Notification Settings",
+    "settings": {
+      "general": "General notifications",
+      "sound": "Sound",
+      "vibration": "Vibration",
+      "reminders": "Reminders"
+    },
+    "buttons": {
+      "update": "Update notifications"
+    },
+    "notifications": {
+      "errorTitle": "Error",
+      "authFailed": "User authentication failed. Please sign in again.",
+      "infoFetchFailed": "We couldn’t load the notification settings.",
+      "generic": "Something went wrong. Please try again.",
+      "sessionRequired": "Authentication failed. Please sign in.",
+      "updateSuccessTitle": "Success",
+      "updateSuccessMessage": "Notification settings updated.",
+      "updateFailed": "We couldn’t update the notification settings."
+    }
+  },
+  "themeSettings": {
+    "title": "Theme Settings",
+    "labels": {
+      "device": "Device",
+      "light": "Light Theme",
+      "dark": "Dark Theme"
+    }
+  },
+  "profileResetPassword": {
+    "title": "Update Password",
+    "inputs": {
+      "current": "Current Password",
+      "new": "New Password",
+      "confirm": "Confirm Password"
+    },
+    "buttons": {
+      "update": "Update password"
+    },
+    "notifications": {
+      "warningTitle": "Attention",
+      "mismatch": "Passwords do not match. Please try again.",
+      "missingCurrent": "Please enter your current password.",
+      "missingNew": "Please enter your new password.",
+      "authFailedTitle": "Error",
+      "authFailedMessage": "Session validation failed. Please sign in again.",
+      "wrongCurrent": "Your current password is incorrect.",
+      "updateSuccessTitle": "Success",
+      "updateSuccessMessage": "Password updated successfully.",
+      "updateFailedTitle": "Error",
+      "updateFailedMessage": "We couldn't update the password. Please try again.",
+      "genericMessage": "Something went wrong. Please try again.",
+      "passwordCriteria": "Password must be at least 8 characters long and include uppercase, lowercase, number, and special character."
+    }
+  },
+  "appSettings": {
+    "title": "App Settings",
+    "buttons": {
+      "notificationSettings": "Notification Settings",
+      "themeSettings": "Theme Settings",
+      "languageSettings": "Language Settings",
+      "changePassword": "Change Password"
+    }
+  },
+  "helpContact": {
+    "title": "Let us help you",
+    "tabs": {
+      "faq": "FAQ",
+      "contact": "Contact"
+    },
+    "subTabs": {
+      "general": "General",
+      "account": "Account",
+      "services": "Services"
+    },
+    "releaseNotesLabel": "Updates",
+    "searchPlaceholder": "Search",
+    "faq": {
+      "general": [
+        {
+          "question": "What is Exereyes and what is its purpose?",
+          "answer": "Exereyes is an AI-powered personal trainer application developed by Lotus Sport Technology. Our goal is to enable individuals to perform personalized exercises supported by scientific data without the need for expensive equipment."
+        },
+        {
+          "question": "What should I do if the camera doesn't detect objects?",
+          "answer": "Ensure the environment is well-lit and your lens is clean. Scanning objects as a whole increases success. If the internet is slow or detection fails, you can add objects manually."
+        },
+        {
+          "question": "Where should I place the phone?",
+          "answer": "Place the phone at a right angle on a stable surface. Stand about 1-1.5 meters behind the phone so the camera can see the entire exercise area."
+        },
+        {
+          "question": "Can I use my own professional equipment (dumbbells, etc.)?",
+          "answer": "Absolutely! Although designed for household items, you can use professional equipment in place of domestic items if they serve the same purpose."
+        },
+        {
+          "question": "Is the application free to use?",
+          "answer": "Yes. In line with the principle of social inclusivity, Exereyes offers its basic features to users free of charge."
+        },
+        {
+          "question": "Is there an age limit?",
+          "answer": "The app is designed for individuals aged 15 and over. Users under 18 require the approval of a legal guardian."
+        },
+        {
+          "question": "Can I use it on iOS (iPhone)?",
+          "answer": "Exereyes is currently fully optimized for Android. The iOS version will be available on the App Store very soon."
+        },
+        {
+          "question": "How can I contact you?",
+          "answer": "You can use the 'Contact' section in the app, email us at info@lotussport.net, or call +90 532 671 1570."
+        }
+      ],
+      "account": [
+        {
+          "question": "How do I create my profile and what can I change?",
+          "answer": "You can create a profile by logging in with your phone number and verification code. You can update your Name, Height, Weight, and Age at any time."
+        },
+        {
+          "question": "Are my camera images recorded?",
+          "answer": "Images are processed instantly and are not recorded on our servers. They may only be used anonymously to improve AI if you give explicit consent. Data is protected under GDPR standards."
+        },
+        {
+          "question": "What happens to my data if I delete my account?",
+          "answer": "Your personal data will be permanently destroyed or anonymized after legal retention periods. This action cannot be undone."
+        }
+      ],
+      "services": [
+        {
+          "question": "I don't have sports equipment, how does the app work?",
+          "answer": "Exereyes recognizes objects like chairs, water bottles, or books via your camera and transforms them into virtual sports equipment for your program."
+        },
+        {
+          "question": "Does the app consider chronic conditions (Herniated disc, etc.)?",
+          "answer": "Yes. In the 'Health History' screen, you can mark conditions like Scoliosis or Hypertension. The AI will automatically remove risky movements from your program."
+        },
+        {
+          "question": "Is there customization for injuries?",
+          "answer": "Absolutely. You can select problematic areas like shoulders or knees in the 'Injuries' tab, and the system will offer alternative exercises."
+        },
+        {
+          "question": "Does it work without an internet connection?",
+          "answer": "An active internet connection is required for cloud-based AI analysis. However, some basic profile features can be viewed offline."
+        },
+        {
+          "question": "Does it show calorie burn and training history?",
+          "answer": "Yes. The app calculates estimated calorie burn and provides daily, weekly, and monthly statistical history."
+        }
+      ]
+    },
+    "accountActions": {
+      "deactivateTitle": "Deactivate your account",
+      "deactivateDescription": "When you deactivate your account, all your data is removed and you will no longer be able to access it. This action cannot be undone.",
+      "deactivateButton": "Deactivate Account",
+      "deleteTitle": "Delete your account",
+      "deleteDescription": "Deleting your account permanently removes all your data and you won't be able to access it again. This is more permanent than deactivation.",
+      "deleteButton": "Delete Account"
+    },
+    "alerts": {
+      "deleteTitle": "Delete Account",
+      "deleteMessage": "Are you sure you want to permanently delete your account? This action cannot be undone and all of your data will be permanently removed.",
+      "deleteCancel": "Cancel",
+      "deleteConfirm": "Delete",
+      "deactivateTitle": "Deactivate Account",
+      "deactivateMessage": "Are you sure you want to deactivate your account? This action cannot be undone.",
+      "deactivateCancel": "Cancel",
+      "deactivateConfirm": "Deactivate"
+    },
+    "notifications": {
+      "errorTitle": "Error",
+      "authFailed": "No active session. Please sign in.",
+      "deleteSuccessTitle": "Account deleted",
+      "deleteSuccessMessage": "Your account has been deleted successfully.",
+      "deleteFailed": "We couldn't delete your account. Please try again.",
+      "deactivateSuccessTitle": "Account deactivated",
+      "deactivateSuccessMessage": "Your account has been deactivated successfully.",
+      "deactivateFailed": "We couldn't deactivate your account. Please try again.",
+      "generic": "Something went wrong. Please try again."
+    },
+    "contact": {
+      "address": {
+        "heading": "Address",
+        "value": "Entertech İstanbul Teknokent"
+      },
+      "phone": {
+        "heading": "Phone",
+        "value": "+90 532 671 1570",
+        "workingHours": "Working Hours: 09:00 - 18:00 (GMT+2)"
+      },
+      "email": {
+        "heading": "E-mail",
+        "values": ["support@lotussport.net", "info@lotussport.net"]
+      },
+      "website": {
+        "heading": "Website",
+        "value": "https://www.lotussport.net/exereyes"
+      },
+      "social": {
+        "heading": "Social Media",
+        "instagram": {
+          "label": "📷 Instagram:",
+          "value": "@exereyes"
+        },
+        "linkedin": {
+          "label": "💼 LinkedIn:",
+          "value": "Exereyes"
+        }
+      }
+    }
+  },
+  "singleArticle": {
+    "notFound": "Article not found",
+    "publicationDate": "Publication Date:",
+    "title": "Posts"
+  },
+  "homeFront": {
+    "notifications": {
+      "sessionRequiredTitle": "Session required",
+      "sessionRequiredMessage": "Please sign in again.",
+      "errorTitle": "Error"
+    },
+    "quickStart": {
+      "title": "Quick Start",
+      "home": "Home",
+      "outdoor": "Outdoors"
+    },
+    "exerAiAnalysis": "ExerAI Analysis",
+    "exercises": {
+      "title": "Exercises",
+      "viewAll": "All Exercises",
+      "empty": "No exercises found"
+    },
+    "topFive": "TOP 3",
+    "articles": "Posts",
+    "articlesViewAll": "All Posts"
+  },
+  "challenge": {
+    "title": "League Rankings",
+    "you": "(You)",
+    "rank": "Rank:",
+    "points": "Points",
+    "workouts": "Workouts",
+    "notifications": {
+      "errorTitle": "Error",
+      "authError": "Authentication error. Please sign in again.",
+      "fetchListError": "Could not fetch challenge list.",
+      "fetchListGenericError": "An error occurred while fetching the challenge list."
+    },
+    "motivation": {
+      "top": ["You're the champion!", "You're on top!", "Unbeatable! 💪"],
+      "middle": [
+        "You're doing great!",
+        "Almost at the top! 🔥",
+        "Keep it up consistently!"
+      ],
+      "bottom": [
+        "You can work harder! 💪",
+        "Don't give up, keep going!",
+        "Believe in yourself, you'll succeed!"
+      ]
+    }
+  },
+  "friendship": {
+    "headerTitle": "Friends",
+    "actions": {
+      "searchUsers": "Search Users",
+      "incomingRequests": "Incoming Requests"
+    },
+    "friendsList": {
+      "title": "My Friends ({{count}})",
+      "emptyTitle": "You have no friends yet",
+      "emptySubtitle": "Tap the search icon above to find users"
+    },
+    "searchModal": {
+      "title": "Search User",
+      "placeholder": "Search user...",
+      "toggleName": "Name",
+      "toggleId": "ID",
+      "results": "Search Results",
+      "friends": "My Friends",
+      "others": "Other Users",
+      "emptyGuide": "Type in the field above and press the search button"
+    },
+    "requestsModal": {
+      "title": "Friend Requests",
+      "empty": "No incoming friend requests"
+    },
+    "notifications": {
+      "errorTitle": "Error",
+      "warningTitle": "Warning",
+      "infoTitle": "Info",
+      "successTitle": "Success",
+      "userFetchFailed": "We couldn’t load user information.",
+      "generic": "Something went wrong. Please try again later.",
+      "profilePhotoMissingTitle": "Error!",
+      "profilePhotoMissing": "Profile photo could not be found.",
+      "searchMissingTerm": "Please enter a search term.",
+      "invalidId": "Please enter a valid ID.",
+      "searchNotFound": "No results found.",
+      "searchError": "An error occurred during the search.",
+      "requestSent": "Friend request sent!",
+      "requestSendFailed": "We couldn't send the friend request.",
+      "requestDeclined": "Friend request declined.",
+      "requestDeclineFailed": "We couldn’t decline the request.",
+      "requestAccepted": "Friend request accepted!",
+      "requestAcceptFailed": "We couldn’t accept the request.",
+      "requestCanceled": "Request cancelled.",
+      "requestCancelFailed": "We couldn’t cancel the request.",
+      "friendRemoved": "Friend removed.",
+      "friendRemoveFailed": "We couldn’t remove the friend."
+    },
+    "alerts": {
+      "removeFriendTitle": "Remove Friend",
+      "removeFriendMessage": "Are you sure you want to remove this person from your friends list?",
+      "cancel": "Cancel",
+      "remove": "Remove"
+    }
+  },
+  "friendDetail": {
+    "headerTitle": "Friend Detail",
+    "chips": {
+      "streak": "Streak: {{count}} days",
+      "lastLogin": "Last login: {{time}}"
+    },
+    "sections": {
+      "stats": "Statistics",
+      "contact": "Contact"
+    },
+    "stats": {
+      "totalScore": "Total Score",
+      "completedWorkouts": "Completed Workouts",
+      "totalDuration": "Total Duration",
+      "totalCalories": "Total Calories"
+    },
+    "info": {
+      "email": "E-mail"
+    },
+    "actions": {
+      "removing": "Removing...",
+      "removeFriend": "Remove friend",
+      "requestPendingCancel": "Request sent (Cancel)",
+      "sending": "Sending...",
+      "addFriend": "Add friend"
+    },
+    "alerts": {
+      "removeFriendTitle": "Remove Friend",
+      "removeFriendMessage": "Are you sure you want to remove {{fullName}} from your friends list?",
+      "cancel": "Cancel",
+      "remove": "Remove"
+    }
+  },
+  "programSelect": {
+    "selectedDayWorkout": "Selected Day's Workout",
+    "workout": "Workout",
+    "minutes": "min",
+    "noWorkoutForDate": "No workout found for this date.",
+    "startWorkout": "Start Workout",
+    "notTodayWorkout": "This workout is not due today",
+
+    "generalInfo": "General Information",
+    "start": "Start",
+    "duration": "Duration",
+    "level": "Level",
+    "targetRegion": "Target Region",
+    "summary": "Summary",
+    "leaveProgram": "Leave Program",
+    "leaving": "Leaving...",
+    "week": "weeks"
+  },
+  "programFront": {
+    "title": "Programs",
+    "filters": "Filters",
+    "level": "Level",
+    "loading": "Loading",
+    "showAll": "Show all {{count}} programs",
+    "cardA11y": "{{name}} program card",
+    "summaryA11y": "Program Summary",
+    "coach": "Coach: {{name}}",
+    "difficulty": "Difficulty: {{level}}",
+    "weeks": "{{count}} {{weekLabel}}",
+    "close": "Close",
+    "start": "Start Program",
+    "starting": "Starting...",
+    "duration": "Duration",
+    "region": "Body Region",
+    "noResults": "No results"
+  },
+  "common": { "all": "All", "loading": "Please wait." },
+  "onboarding": {
+    "screen1": {
+      "subtitle": "Let your home be your gym and your belongings be your equipment."
+    },
+    "screen2": {
+      "subtitle": "Working out has never been this 'Homemade'."
+    },
+    "screen3": {
+      "subtitle": "The workout of the future is now in your pocket!"
+    },
+    "screen4": {
+      "subtitle": "EXERAI is Ready, Are You?"
+    },
+    "next": "Next",
+    "start": "Let's get started"
+  },
+  "statistics": {
+    "title": "My Statistics",
+    "errorText": "Data not found.",
+    "days": {
+      "sunday": "Sunday",
+      "monday": "Monday",
+      "tuesday": "Tuesday",
+      "wednesday": "Wednesday",
+      "thursday": "Thursday",
+      "friday": "Friday",
+      "saturday": "Saturday"
+    }
+  },
+  "statisticsCard": {
+    "calorie": {
+      "title": "Total Calories",
+      "suffix": "kcal"
+    },
+    "duration": {
+      "title": "Total Duration",
+      "suffix": "min"
+    },
+    "loginStreak": {
+      "title": "App Logins",
+      "suffix": "times"
+    },
+    "score": {
+      "title": "Total Score",
+      "suffix": "points"
+    },
+    "workouts": {
+      "title": "Total Workouts",
+      "suffix": "items"
+    }
+  },
+  "statisticsChart": {
+    "tabs": {
+      "week": "Week",
+      "month": "Month"
+    },
+    "normalize": {
+      "on": "Normalize: On",
+      "off": "Normalize: Off"
+    },
+    "dailyCalories": {
+      "week": "Daily Calories (7 days)",
+      "month": "Daily Calories (30 days)"
+    },
+    "dailyWorkoutCount": {
+      "week": "Daily Workout Count",
+      "month": "Daily Workout Count (30 days)"
+    },
+    "normalizedIndicator": "— Min–Max [0,1]",
+    "weekDayLabels": {
+      "monday": "Mon",
+      "tuesday": "Tue",
+      "wednesday": "Wed",
+      "thursday": "Thu",
+      "friday": "Fri",
+      "saturday": "Sat",
+      "sunday": "Sun"
+    }
+  },
+  "notificationsFront": {
+    "emptyText": "You have no new notifications.",
+    "markAllRead": "Mark all as read"
+  },
+  "setup": {
+    "diseases": {
+      "shoulder_joint_disorder": "Shoulder Joint Disorder",
+      "scoliosis": "Scoliosis",
+      "elbow_joint_disorder": "Elbow Joint Disorder",
+      "wrist_joint_disorder": "Wrist Joint Disorder",
+      "vertigo": "Vertigo",
+      "lumbar_hernia": "Lumbar Hernia",
+      "knee_joint_disorder": "Knee Joint Disorder",
+      "hip_joint_disorder": "Hip Joint Disorder",
+      "hypertension": "Hypertension",
+      "asthma": "Asthma",
+      "ankle_disorder": "Ankle Disorder",
+      "hip_disorder": "Hip Disorder",
+      "neck_disorder": "Neck Disorder",
+      "cervical_straightening": "Cervical Straightening",
+      "cervical_hernia": "Cervical Hernia",
+      "lordosis": "Lordosis",
+      "kyphosis": "Kyphosis"
+    },
+    "gender": {
+      "title": "Biological Sex",
+      "subtitle": "To create personalized training programs for you, please select your sex.",
+      "male": "Male",
+      "female": "Female"
+    },
+    "age": {
+      "title": "Your Age",
+      "subtitle": "To create your personalized training program, please specify your age."
+    },
+    "height": {
+      "title": "Your Height",
+      "subtitle": "To create your personalized training program, please provide your accurate height.",
+      "unit": "cm"
+    },
+    "weight": {
+      "title": "Your Weight",
+      "subtitle": "To create your personalized training program, please provide your weight.",
+      "unit": "kg"
+    },
+    "fitnessGoal": {
+      "title": "Select Your Goals",
+      "options": {
+        "loseWeight": "Lose Weight",
+        "toning": "Toning",
+        "strength": "Get Stronger",
+        "flexibility": "Increase Flexibility"
+      },
+      "warningTitle": "Warning",
+      "maxSelection": "You can select up to three goals."
+    },
+    "experience": {
+      "title": "Select Your Experience Level",
+      "options": {
+        "beginner": "0-1 year",
+        "intermediate": "1-3 years",
+        "advanced": "3+ years"
+      }
+    },
+    "healthProblems": {
+      "title": "Your Health Problems",
+      "notifications": {
+        "errorTitle": "Error",
+        "authFailed": "User authentication failed. Please sign in again.",
+        "loadFailed": "Failed to load health problems"
+      }
+    },
+    "injuries": {
+      "title": "Your Past Injuries",
+      "notifications": {
+        "errorTitle": "Error",
+        "authFailed": "Session could not be verified. Please sign in again.",
+        "loadFailed": "Failed to load health problems",
+        "successTitle": "Success",
+        "successMessage": "Profile updated successfully.",
+        "failTitle": "Failed",
+        "failMessage": "Profile update failed.",
+        "generic": "Something went wrong. Please try again."
+      }
+    },
+    "physicalActivityLevel": "Choose your physical activity level",
+    "next": "Continue",
+    "title": "Your Age",
+    "subtitle": "To create your personalized training program, please specify your age."
+  },
+  "privacyPolicy": {
+    "title": "PRIVACY POLICY",
+    "intro": "This privacy statement explains how the Lotus Sport website collects and uses data. In order to provide you with better service, when you access this application, we request some personal information from you. This includes information such as name, surname, email address, mobile phone number, etc. This information may be used to improve the site and understand customer trends.",
+    "dataSharing": "Lotus Sport absolutely does not share the information it collects with third parties without your knowledge, does not use it for commercial purposes for any reason outside of its activities, and does not sell it.",
+    "cookiePolicyTitle": "LOTUS SPORT and EXEREYES COOKIE POLICY",
+    "cookiePolicyIntro": "In this cookie policy, we use the term \"cookie\" to refer to cookies and other similar technologies subject to the EU Directive on electronic communications privacy.",
+    "whatAreCookies": {
+      "title": "What Are Cookies?",
+      "content": "Cookies are small, usually encrypted text files found on websites. They are used by web developers to help users navigate websites efficiently and perform certain functions. Most web browsers support cookies; however, users can configure their browsers to reject certain types of cookies or delete them at any time."
+    },
+    "whatCookiesCannotDo": {
+      "title": "What Can't Cookies Do?",
+      "content": "Cookies are plain text files; they cannot directly access your computer or personal data. They are only used to enhance website functionality. This ensures that features such as login, language preferences, theme selections, or shopping cart work properly."
+    },
+    "howCookiesCollected": {
+      "title": "How Are Cookies Collected?",
+      "content": "The data used by cookies is collected through the devices you access the browser with. This information is device-specific and can be deleted or restricted by the user when requested."
+    },
+    "whyUseCookies": {
+      "title": "Why Do We Use Cookies in Our Application?",
+      "content": "We use cookies in our application to enhance your user experience, analyze your interactions, and improve your visit experience. For example, it facilitates your transactions by remembering your preferred language, username, or shopping cart. Additionally, some cookies may analyze your behavior to show you personalized advertisements."
+    },
+    "cookieTypes": {
+      "title": "What Types of Cookies Do We Use in Our Application?",
+      "content": "Session Cookies: These are temporary cookies that are deleted when you close your browser. Persistent Cookies: These are stored in your browser's subfolders for a certain period of time or until manually deleted."
+    },
+    "contactUs": {
+      "title": "Contact Us",
+      "content": "You can contact us at info@lotussport.net to share all your questions and opinions regarding the Cookie Policy."
+    }
+  },
+  "exerciseDetailCard": {
+    "exerciseDescription": "Exercise Description"
+  },
+  "congratulations": {
+    "congrats": "Congratulations",
+    "congratsContent": "You've completed your training. You can continue and improve your ranking even further.",
+    "continue": "Continue"
+  }
+}
